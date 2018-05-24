@@ -1,6 +1,6 @@
 var playlist = {["Lil Boosie"]: "Wipe Me Down"};
 
-function updatePlaylist(playlist,artistName,song){
+function updatePlaylist(playlist,artistName,songName){
 	playlist[artist]=song
 	return playlist
 }
