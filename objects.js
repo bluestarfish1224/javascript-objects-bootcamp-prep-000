@@ -1,11 +1,11 @@
 var playlist = {["Lil Boosie"]: "Wipe Me Down"};
 
 function updatePlaylist(playlist,artistName,songName){
-	playlist[artist]=song
+	playlist[artistName]=songName
 	return playlist
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.artist
+  delete playlist.artistName
   return playlist
 }
